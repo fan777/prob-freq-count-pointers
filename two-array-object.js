@@ -4,7 +4,7 @@ function twoArrayObject(keys, vals) {
   for (let key in keys) {
     let objKey = keys[key]
     let objVal = vals[key]
-    arrObj[key] = 
+    // arrObj[key] = 
   }
   return arrObj
 }
