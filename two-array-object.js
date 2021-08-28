@@ -1,10 +1,8 @@
 // add whatever parameters you deem necessary
 function twoArrayObject(keys, vals) {
   const arrObj = {}
-  for (let key in keys) {
-    let objKey = keys[key]
-    let objVal = vals[key]
-    // arrObj[key] = 
+  for (let i = 0; i < keys.length; i++) {
+    arrObj[keys[i]] = vals[i] || null;
   }
   return arrObj
 }
